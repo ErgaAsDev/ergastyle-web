@@ -7,10 +7,18 @@ h2 {
   display: flex;
   left: 10%;
   top: 10%;
-  gap: 52px;
+  gap: 40px;
   max-width: 1300px;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 900px) {
+  .portfolio-container {
+    margin-left: 12%;
+  }
+
+}
+
 
 .portfolio {
   animation: fadeIn 1.3s backwards;
@@ -62,7 +70,7 @@ h2 {
     align-items: center;
     justify-content: center;
     color: #05090b;
-    width: 200px;
+    width: 180px;
     background-size: cover !important;
     background-position: center !important;
     height: 240px;
