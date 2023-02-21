@@ -8,16 +8,6 @@ export default [
     sourceCode: "https://github.com/ErgaAsDev/furnature-project",
     linkCode: "https://erga-furnature-commerce.netlify.app/",
   },
-
-  {
-    id: 4,
-    img: "https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/bayut-sa-screenshotv3.jpg",
-    title: "Realdeal: real estate website",
-    desc: "Created functional and responsive real-estate website using Next with RapidAPI (bayut.com API).",
-    tech: "Next.js (SSG and SSR), Chakra UI, RapidAPI.",
-    sourceCode: "https://github.com/ErgaAsDev/realestate-realdeal",
-    linkCode: "https://erga-microsoftpage.netlify.app/",
-  },
   {
     id: 3,
     img: "https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU",
@@ -26,6 +16,15 @@ export default [
     tech: "React (CRA) + context API, Styled component CSS, FusionChart, Auth0.",
     sourceCode: "https://github.com/ErgaAsDev/github-users-info",
     linkCode: "https://erga-github-users-search.netlify.app",
+  },
+  {
+    id: 4,
+    img: "https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/bayut-sa-screenshotv3.jpg",
+    title: "Realdeal: real estate website",
+    desc: "Created functional and responsive real-estate website using Next with RapidAPI (bayut.com API).",
+    tech: "Next.js (SSG and SSR), Chakra UI, RapidAPI.",
+    sourceCode: "https://github.com/ErgaAsDev/realestate-realdeal",
+    linkCode: "https://erga-microsoftpage.netlify.app/",
   },
   {
     id: 2,
