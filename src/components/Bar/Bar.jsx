@@ -24,7 +24,6 @@ const Bar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
         <Logo className="logo-e" />
-        {/* <img className="sub-logo" src={LogoSubtitle} alt="erga" /> */}
       </Link>
       <nav className={showNav ? "mobile-show" : ""}>
         <NavLink
