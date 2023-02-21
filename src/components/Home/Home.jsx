@@ -62,7 +62,7 @@ const Home = () => {
           </h1>
           <h2>Front End Developer || Web Designer</h2>
           <a
-            href="https://drive.google.com/file/d/1U654B6QEcRV-1k3brH-A7GxH52BIs0Zz/view?usp=sharing"
+            href="https://drive.google.com/file/d/16_ZPKZOksTqXy0rSVC5Ukab6jH1lvR86/view?usp=sharing"
             className="flat-button"
           >
             MY RESUME
