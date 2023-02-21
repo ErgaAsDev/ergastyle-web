@@ -1,6 +1,6 @@
 import "./bar.scss";
 import { useState } from "react";
-import { ReactComponent as Logo } from "../../assets/images/logo-e.svg";
+import { ReactComponent as Logo } from "../../assets/images/logoE.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,

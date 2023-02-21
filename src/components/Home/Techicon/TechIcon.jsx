@@ -1,7 +1,7 @@
 import "./techicon.scss";
-import { ReactComponent as InnerCircle } from "../../../assets/images/innercircle.svg";
+import { ReactComponent as InnerCircle } from "../../../assets/images/innerCircle.svg";
 import { ReactComponent as MiddleCircle } from "../../../assets/images/middleCircle.svg";
-import { ReactComponent as OuterCircle } from "../../../assets/images/outer-circle.svg";
+import { ReactComponent as OuterCircle } from "../../../assets/images/outerCircle.svg";
 
 const TechIcon = () => {
   return (
