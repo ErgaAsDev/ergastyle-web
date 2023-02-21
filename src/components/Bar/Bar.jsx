@@ -1,8 +1,6 @@
 import "./bar.scss";
 import { useState } from "react";
-import LogoS from "../../assets/images/logo-s.png";
-import { ReactComponent as Logo } from "../../assets/images/logo-e.svg"
-import LogoSubtitle from "../../assets/images/logo_sub.png";
+import { ReactComponent as Logo } from "../../assets/images/logo-e.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -25,10 +23,10 @@ const Bar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <Logo className="logo-e"/>
+        <Logo className="logo-e" />
         {/* <img className="sub-logo" src={LogoSubtitle} alt="erga" /> */}
       </Link>
-      <nav className={showNav ? 'mobile-show' : ''}>
+      <nav className={showNav ? "mobile-show" : ""}>
         <NavLink
           exact="true"
           activeclassname="active"
