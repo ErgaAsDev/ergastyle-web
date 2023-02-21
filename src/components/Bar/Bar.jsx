@@ -23,7 +23,7 @@ const Bar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <Logo className="logo-e" />
+        <Logo id="logo-e" />
       </Link>
       <nav className={showNav ? "mobile-show" : ""}>
         <NavLink
