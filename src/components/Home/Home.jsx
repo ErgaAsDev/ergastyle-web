@@ -62,10 +62,10 @@ const Home = () => {
           </h1>
           <h2>Front End Developer || Web Designer</h2>
           <a
-            href="https://drive.google.com/file/d/16_ZPKZOksTqXy0rSVC5Ukab6jH1lvR86/view?usp=sharing"
+            href="https://www.linkedin.com/in/erlangga-septa-kurnia-15262a1b9/"
             className="flat-button"
           >
-            MY RESUME
+            CONTACT ME
           </a>
         </div>
         <TechIcon />

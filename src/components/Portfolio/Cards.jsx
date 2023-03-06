@@ -17,10 +17,10 @@ const Cards = (props) => {
           <p>{props.desc}</p>
           <p>{props.tech}</p>
           <div style={{ display: "flex", gap: "12px" }}>
-            <a href={props.sourceCode} className="button source">
+            <a href={props.linkCode} className="button source">
               Link
             </a>
-            <a href={props.linkCode} className="button link">
+            <a href={props.sourceCode} className="button link">
               Source
             </a>
           </div>
