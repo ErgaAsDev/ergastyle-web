@@ -24,7 +24,7 @@ export default [
     desc: "Created functional and responsive real-estate website using Next with RapidAPI (bayut.com API).",
     tech: "Next.js (SSG and SSR), Chakra UI, RapidAPI.",
     sourceCode: "https://github.com/ErgaAsDev/realestate-realdeal",
-    linkCode: "https://erga-microsoftpage.netlify.app/",
+    linkCode: "https://jsm-realestate.vercel.app/",
   },
   {
     id: 2,
