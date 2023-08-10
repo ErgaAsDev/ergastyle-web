@@ -60,7 +60,7 @@ const Home = () => {
               idx={24}
             />
           </h1>
-          <h2>Front End Developer && Web and Mobile Designer</h2>
+          <h2>Front End Developer && Web/Mobile Designer</h2>
           <a
             href="https://www.linkedin.com/in/erlangga-septa-kurnia-15262a1b9/"
             className="flat-button"

@@ -1,0 +1,80 @@
+.containerCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.circle {
+  position: absolute;
+}
+
+#innerCircle {
+  width: 250px;
+  height: 250px;
+}
+
+#middleCircle {
+  width: 450px;
+  height: 450px;
+}
+
+#outerCircle {
+  width: 550px;
+  height: 550px;
+  animation: rotateOuter 100s infinite;
+}
+
+@keyframes rotateOuter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#middleCircle {
+  animation: rotateMiddle 70s infinite;
+}
+
+@keyframes rotateMiddle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+#innerCircle {
+  animation: rotateInner 50s infinite;
+}
+
+@keyframes rotateInner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1200px) {
+  #innerCircle {
+    width: 200px;
+    height: 200px;
+  }
+  #middleCircle {
+    width: 370px;
+    height: 370px;
+  }
+  #outerCircle {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .containerCircle {
+    display: none;
+  }
+}/*# sourceMappingURL=techicon.css.map */
