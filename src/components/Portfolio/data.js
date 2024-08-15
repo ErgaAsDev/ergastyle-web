@@ -92,16 +92,6 @@ export default [
     category: "Next",
   },
   {
-    id: 60,
-    img: "https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png",
-    title: "Airbnb Clone",
-    desc: "I created a Fullstack Airbnb Clone with fully responsive and functional",
-    tech: "Next 13, MongoDB, Tailwind",
-    sourceCode: "https://github.com/ErgaAsDev/next13-airbnb-clone",
-    linkCode: "https://next13-airbnb.vercel.app/",
-    category: "Next",
-  },
-  {
     id: 90,
     img: "https://codenesia.id/storage/2022/03/react-native.png",
     title: "React Native - Jobshift",
