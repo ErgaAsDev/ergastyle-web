@@ -13,11 +13,11 @@ const Home = () => {
   const jobArray = [
     "a",
     " ",
-    "w",
+    "W",
     "e",
     "b",
     " ",
-    "d",
+    "D",
     "e",
     "v",
     "e",
@@ -26,7 +26,15 @@ const Home = () => {
     "p",
     "e",
     "r",
-    ".",
+    "/",
+    "D",
+    "e",
+    "s",
+    "i",
+    "g",
+    "n",
+    "e",
+    "r",
   ];
 
   useEffect(() => {
@@ -57,16 +65,13 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={24}
+              idx={16}
             />
           </h1>
           <h2>Front End Developer && Web/Mobile Designer</h2>
-          <a
-            href="https://www.linkedin.com/in/erlangga-septa-kurnia-15262a1b9/"
-            className="flat-button"
-          >
-            CONTACT ME
-          </a>
+          <Link to="/portfolio" className="flat-button">
+            PORTFOLIO
+          </Link>
         </div>
         <TechIcon />
       </div>

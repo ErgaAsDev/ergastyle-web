@@ -1,5 +1,35 @@
 export default [
   {
+    id: 12,
+    img: "https://banking-jet.vercel.app/icons/auth-image.svg",
+    title: "Horizon Finance Dashboard ",
+    desc: "A modern financial bank management dashboard.",
+    tech: "Next14, Typescript, Appwrite, ShadCN, etc .",
+    sourceCode: "https://github.com/ErgaAsDev/finance-bank-dashboard",
+    linkCode: "https://banking-jet.vercel.app/sign-in",
+    category: "Next",
+  },
+  {
+    id: 13,
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Google_Docs_2020_Logo.svg/1489px-Google_Docs_2020_Logo.svg.png",
+    title: "LiveDocs",
+    desc: "A collaborative editor like Google Docs.",
+    tech: "Next14, Typescript, Liveblocks, Lexical Editor, ShadCN, Tailwind .",
+    sourceCode: "https://github.com/ErgaAsDev/collaborative-editor-main",
+    linkCode: "https://jsm-live-docs.vercel.app/sign-in",
+    category: "Next",
+  },
+  {
+    id: 14,
+    img: "https://camo.githubusercontent.com/cd51bbe68f99cfd7fd2f9e9cf944cf515f514a26b855b8c8e7b21647a6b75611/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f64644b5138735a6f5f76382f302e6a7067",
+    title: "Inventory App",
+    desc: "An inventory management app.",
+    tech: "Next14, Typescript, NodeJS, Prisma, Tailwind.",
+    sourceCode: "https://github.com/ErgaAsDev/inventory-management-app",
+    // linkCode: "https://jsm-live-docs.vercel.app/sign-in",
+    category: "Next",
+  },
+  {
     id: 1,
     img: "https://buildwithangga.com/storage/assets/portfolio/HOiN8RbdRr7mdnNXIAeRejTVjDymzP8uIQH5dcHU.jpeg",
     title: "Furnature: furniture e-commerce",
@@ -7,6 +37,7 @@ export default [
     tech: "React (CRA) + context API, Styled component CSS, Stripe, Auth0.",
     sourceCode: "https://github.com/ErgaAsDev/furnature-project",
     linkCode: "https://erga-furnature-commerce.netlify.app/",
+    category: "React",
   },
   {
     id: 3,
@@ -16,15 +47,19 @@ export default [
     tech: "React (CRA) + context API, Styled component CSS, FusionChart, Auth0.",
     sourceCode: "https://github.com/ErgaAsDev/github-users-info",
     linkCode: "https://erga-github-users-search.netlify.app",
+    category: "React",
   },
   {
     id: 4,
     img: "https://cdn.icon-icons.com/icons2/1488/PNG/512/5329-dribble_102570.png",
     title: "UIUX Portfolio",
     desc: "Designs that i have created so far..",
-    tech: "Nope just Figma and few plugins",
-    sourceCode: "https://dribbble.com/ergastyle",
-    linkCode: "https://dribbble.com/ergastyle",
+    tech: "Just Figma and few plugins",
+    sourceCode:
+      "https://ergastyle.notion.site/Erga-s-UIX-Portfolio-266f1d5e7d834606856e183aaf7c52f9",
+    linkCode:
+      "https://ergastyle.notion.site/Erga-s-UIX-Portfolio-266f1d5e7d834606856e183aaf7c52f9",
+    category: "UIUX",
   },
   {
     id: 10,
@@ -34,6 +69,7 @@ export default [
     tech: "Vite, React, SCSS",
     sourceCode: "https://github.com/ErgaAsDev/cmlabs-frontend-fulltime-test",
     linkCode: "https://eatncook.netlify.app/",
+    category: "React",
   },
   {
     id: 2,
@@ -43,6 +79,7 @@ export default [
     tech: "Figma, Next.JS, Bootstrap",
     sourceCode: "https://github.com/ErgaAsDev/cryptoon-cryptopages",
     linkCode: "https://cryptoon-cryptopages.vercel.app/",
+    category: "Next",
   },
   ,
   {
@@ -52,6 +89,28 @@ export default [
     desc: "I created a landing page for my friend's website profile company, designed in Figma.",
     tech: "Figma, Next.js, Tailwind CSS, SasS",
     linkCode: "https://nextjs-cultigo.vercel.app/",
+    category: "Next",
+  },
+  {
+    id: 60,
+    img: "https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png",
+    title: "Airbnb Clone",
+    desc: "I created a Fullstack Airbnb Clone with fully responsive and functional",
+    tech: "Next 13, MongoDB, Tailwind",
+    sourceCode: "https://github.com/ErgaAsDev/next13-airbnb-clone",
+    linkCode: "https://next13-airbnb.vercel.app/",
+    category: "Next",
+  },
+  {
+    id: 90,
+    img: "https://codenesia.id/storage/2022/03/react-native.png",
+    title: "React Native - Jobshift",
+    desc: "I created an app for job platform.",
+    tech: "React Native (Expo)",
+    sourceCode: "https://github.com/ErgaAsDev/reactnative_jobsift_1stProject",
+    linkCode:
+      "https://expo.dev/@ergaasdev/jobsift?serviceType=classic&distribution=expo-go",
+    category: "React Native",
   },
   {
     id: 6,
@@ -61,6 +120,7 @@ export default [
     tech: "Vanilla Development (HTML, CSS, JavaScript",
     sourceCode: "https://github.com/ErgaAsDev/kalkulator-biaya-listrik",
     linkCode: "https://erga-kalkbiayalistrik.netlify.app/",
+    category: "React",
   },
   {
     id: 7,
@@ -70,6 +130,7 @@ export default [
     tech: "Vanilla Development (HTML, CSS, JavaScript",
     sourceCode: "https://github.com/ErgaAsDev/color-clicker",
     linkCode: "https://erga-colorclicker.netlify.app/",
+    category: "React",
   },
   {
     id: 8,
@@ -79,14 +140,6 @@ export default [
     tech: "React, CSS",
     sourceCode: "https://github.com/ErgaAsDev/tenzie-game",
     linkCode: "https://erga-tenzie-game.netlify.app/",
-  },
-  {
-    id: 9,
-    img: "https://i.imgflip.com/33rsw.jpg",
-    title: "Meme Generator",
-    desc: "I created an app to generate random memes, and can edit the texts.",
-    tech: "Vite, React, CSS",
-    sourceCode: "https://github.com/ErgaAsDev/meme-generator",
-    linkCode: "https://erga-memegenerator.netlify.app/",
+    category: "React",
   },
 ];

@@ -3,13 +3,7 @@ h2 {
 }
 
 .portfolio-container {
-  position: absolute;
-  display: flex;
-  left: 10%;
-  top: 10%;
-  gap: 40px;
-  max-width: 1300px;
-  flex-wrap: wrap;
+  display: block;
 }
 
 @media screen and (max-width: 900px) {
@@ -101,4 +95,4 @@ h2 {
   color: #ffd700;
   font-size: 28px;
   font-weight: 700;
-}/*# sourceMappingURL=portfolio.css.map */
+} /*# sourceMappingURL=portfolio.css.map */

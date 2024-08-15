@@ -33,17 +33,17 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a self taught software developer specialized in frontend
+            development and UIUX design. I have been working for 3 years+ having
+            skills as software developer and product designer.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
+            I'm determined, naturally curious, and perpetually working on
             improving my skill as developer.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a
-            imaginative person who loves to daydream.
+            Interested in digital experience, creative frontend, immersive AR/VR
+            and 3D development.
           </p>
         </div>
 

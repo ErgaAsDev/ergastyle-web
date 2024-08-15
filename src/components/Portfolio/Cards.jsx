@@ -17,12 +17,28 @@ const Cards = (props) => {
           <p>{props.desc}</p>
           <p>{props.tech}</p>
           <div style={{ display: "flex", gap: "12px" }}>
-            <a href={props.linkCode} className="button source">
-              Link
-            </a>
-            <a href={props.sourceCode} className="button link">
-              Source
-            </a>
+            {props.linkCode ? (
+              <a
+                href={props.linkCode}
+                className="button source"
+                target="_blank"
+              >
+                Link
+              </a>
+            ) : (
+              ""
+            )}
+            {props.sourceCode ? (
+              <a
+                href={props.sourceCode}
+                className="button link"
+                target="_blank"
+              >
+                Source
+              </a>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
